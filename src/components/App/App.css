@@ -1,0 +1,65 @@
+.App {
+  color: #525151;
+  max-width: 80%;
+  min-width: 500px;
+  margin: 2rem auto;
+  position: relative;
+}
+ul{
+  
+  padding: 0 0 0 2rem;
+  list-style-type: disc;
+}
+li{  
+  list-style-image: url('https://interactive-examples.mdn.mozilla.net/media/examples/rocket.svg');
+  margin: 0 0 2rem;
+
+}
+.title{
+  font-size: 1.2rem;
+  font-weight:bold;
+  margin: 0;
+}
+
+.clickable-item:hover{
+  cursor: pointer;
+  color: #293593;
+}
+
+.clickable-item__active, .clickable-item__active:hover{
+  color: #05838f
+}
+
+button, .floatingButton{
+    text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    outline: 0;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .3s;
+}
+button:hover, .floatingButton:hover{
+  cursor: pointer;
+  opacity: .7;
+}
+button{
+  height: 1.7rem;
+  line-height: 1.7rem;
+  padding: 0 1.2rem;
+  letter-spacing: .5px;
+  font-size: .7rem;
+}
+.floatingButton{
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  padding: 0 1.7rem;
+  letter-spacing: .5px;
+  font-size: 1rem;
+}
